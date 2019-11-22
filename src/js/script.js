@@ -3,12 +3,15 @@ $(document).ready(function(){
     speed: 1200,
     prevArrow: '<button type="button" class="slick-prev"><img src="icons/left-arrow.png"></button>',
     nextArrow: '<button type="button" class="slick-next"><img src="icons/right-arrow.png"></button>',
+    dotsClass: 'dots',
     responsive: [
       {
         breakpoint: 992,
         settings: {
           dots: true,
-          arrows: false
+          arrows: false,
+          autoplay: true,
+          autoplaySpeed: 2000,
         }
       }],
   });
