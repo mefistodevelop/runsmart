@@ -67,7 +67,13 @@
         width: 500px;
       }
     }
+  }
 
+  .footer {
+    &__info {
+      width: 440px;
+      height: 250px;
+    }
   }
 }
 
@@ -434,6 +440,29 @@
     &__line {
       margin-top: 40px;
       margin-bottom: 45px;
+    }
+  }
+
+  .footer {
+    &__info {
+      width: 300px;
+      height: 200px;
+    }
+
+    &__address {
+      font-size: 15px;
+    }
+
+    &__phone {
+      font-size: 15px;
+    }
+
+    &__socials {
+      width: 160px;
+      img {
+        width: 30px;
+        height: 30px;
+      }
     }
   }
 }
