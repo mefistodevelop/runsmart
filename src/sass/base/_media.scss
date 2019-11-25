@@ -465,5 +465,39 @@
       }
     }
   }
+
+  .modal {
+    padding-top: 30px;
+    width: 245px;
+    min-height: 357px;
+
+    &__close {
+      right: -31px;
+      font-size: 38px;
+      line-height: 23px;
+    }
+
+    &__title {
+      font-size: 14px;
+      line-height: 14px;
+    }
+
+    &__descr {
+      font-size: 11px;
+      line-height: 11px;
+    }
+
+    .feed-form {
+      width: 210px;
+      &__field {
+        height: 40px;
+      }
+
+      button {
+        height: 50px;
+        font-size: 13px;
+      }
+    }
+  }
 }
 
