@@ -98,7 +98,7 @@
         Просто заполните форму заявки<br> 
         и мы перезвоним вам в течении 10 минут
       </p>
-      <form action="#" class="feed-form">
+      <form action="#" class="feed-form" id="consultation-form">
         <input name="name" type="text" placeholder="Ваше имя" required class="feed-form__field">
         <input name="phone" type="tel" placeholder="Ваш телефон" required class="feed-form__field">
         <input name="email" type="email"placeholder="Ваш E-mail" required class="feed-form__field">
@@ -125,6 +125,7 @@
         <li class="catalog__tab"><div>для бега</div></li>
         <li class="catalog__tab"><div>для триатлона</div></li>
       </ul>
+      <!-- first tab -->
       <div class="catalog__content catalog__content_active">
         <div class="catalog-item">
           <div class="catalog-item__wrapper">
@@ -366,7 +367,8 @@
           </div>
         </div>
       </div>
-
+      <!-- end of the first tab -->
+      
       <!-- second tab -->
       <div class="catalog__content">
         <div class="catalog-item">
@@ -673,9 +675,9 @@
       <h3 class="modal__title">Просто заполните форму заявки</h3>
       <p class="modal__descr">и мы перезвоним вам в течении 10 минут</p>
       <form action="#" class="feed-form">
-        <input name="name" type="text" placeholder="Ваше имя" required class="feed-form__field">
-        <input name="phone" type="tel" placeholder="Ваш телефон" required class="feed-form__field">
-        <input name="email" type="email"placeholder="Ваш E-mail" required class="feed-form__field">
+        <input name="name" type="text" placeholder="Ваше имя" class="feed-form__field">
+        <input name="phone" type="tel" placeholder="Ваш телефон" class="feed-form__field">
+        <input name="email" type="email"placeholder="Ваш E-mail" class="feed-form__field">
         <button class="button button_submit">заказать кОНСУЛЬТАЦИЮ</button>
       </form>
     </div>
@@ -704,6 +706,7 @@
   <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
   <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
   <script src="js/slick.min.js"></script>
+  <script src="js/jquery.validate.min.js"></script>
   <script src="js/script.js"></script>
 </body>
 </html>
