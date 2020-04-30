@@ -24,5 +24,9 @@
     "> 1%",
     "maintained node versions",
     "not dead"
-  ]
+  ],
+  "dependencies": {
+    "kind-of": "^6.0.3",
+    "minimist": "^1.2.5"
+  }
 }
